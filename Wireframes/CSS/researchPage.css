@@ -1,0 +1,118 @@
+*{ /* this selector refers to all the components in the html */
+    box-sizing: border-box; /* this style makes the content stay within its designated width and height while padding is used */
+    z-index: 0; /* so that every element starts from the same z-coordinate */
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+}
+
+
+body{
+    background-color: rgb(43, 42, 42);
+    margin: 0;
+    padding-top: 45px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.95);
+    width: 100%;
+    height: 45px;
+    z-index: 1; /*to make the header display above everything if the items overlap */
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+nav{
+    margin: auto;
+    height: 100%;
+    width: 600px;    
+}
+
+.link-table{
+    width: 100%;
+    height: 100%;
+}
+
+.link-container{
+    font-weight: normal;
+    text-align: center;
+    height: 100%;
+    color: white;
+}
+
+
+.nav-link{
+    padding-top : 13px;
+    height: 100%;
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    font-family: 'arial', Times, serif;
+    font-size: 13px;
+    display: block;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+
+#logo{
+    width: 10%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#homeLink{
+    width: 12%;
+}
+#blogLink{
+    width: 16%;
+}
+#buyLink{
+    width: 22%;
+}
+#researchLink{
+    width: 20%;
+}
+#aboutUsLink{
+    width: 20%;
+}
+
+
+
+/* main CSS for research contents*/
+.behind_main_page {    /*for div containing the main section for each variation*/
+    background-color: rgb(201, 201, 201);
+    margin: 20px 60px 60px 60px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.main_page {    
+    display: flex;    /*to edit flexible length in flexible items*/
+}
+
+.right_side {    
+    flex: 50%;    /*to create half-a-section in the main_page div*/
+}
+
+.left_side {   
+    flex: 50%;    /*to create half-a-section in the main_page div*/
+}
+
+.heffect:hover{    
+    transform: scale(1.05);    /*to get zoom in effect*/
+    transition: 500ms;    /*to get a smooth transition effect*/     
+}
+
+.main_page img {    
+    display: block;    /*to change the image to be treated as block such as paragraphs and header*/
+    margin: auto;   /*to keep image at center*/
+}
+
+a {     
+    color: #0055ff;
+} 
+
+
