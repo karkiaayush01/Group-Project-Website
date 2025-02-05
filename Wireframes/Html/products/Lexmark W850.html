@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--link to external stylesheet for page styling-->
+
+        <title>Lexmark W850</title>
+        <link rel="stylesheet" href="../../CSS/Detail-printer.css">
+    </head>
+    <body>
+        <!-- Header section containing nav bar-->
+
+        <header>
+            <nav>
+                <meta name = "description" content = "navigation bar for the page">
+                <meta name = "author" content = "Aayush Karki">
+                <meta name = "keywords" content = "NAVBAR, HTML, CSS">
+                <table class = "link-table">
+                    <!--table for nav link-->
+
+                    <th class = "link-container" id = "logo"><img src = "../../Images/logoWhite.png" width = "90%"></th>
+                    <th class = "link-container" id = "homeLink"><a class = "nav-link"  href = "homepage copy.html">Home</a></th>
+                    <th class = "link-container" id = "blogLink"><a class = "nav-link"  href = "#">Read Blog</a></th>
+                    <th class = "link-container" id = "buyLink" ><a class = "nav-link" href = "testprinters.html">Buy Printers</a></th>
+                    <th class = "link-container" id = "researchLink"><a class = "nav-link"  href = "#">Research</a></th>
+                    <th class = "link-container" id = "aboutUsLink"><a class = "nav-link" href = "#">About Us</a></th>
+                    <th class = "link-container" id = "contactLink" ><a class = "nav-link" href = "#">Contact</a></th>
+                </table>
+            </nav>
+        </header>
+        <!--main product content section-->
+
+        <div class="product-container">
+            <meta name = "productNo7" content = "description of Lexmark W850 printer">
+            <meta name = "author" content = "Sunil Phyual">
+            <meta name = "keywords" content = "PRODUCT, HTML, CSS">
+            <!--Side view of the product with buttons changing view-->
+
+            <div class = "side-views">
+                 <!--button no 1-->
+
+                <button class = "viewButton" id = "view1" onClick = 'changeView("view1")'><img class = "sideviewImages" src = "../../Images/LexmarkW850View1.jpg"></button>
+                 <!--button no 2-->
+
+                <button class = "viewButton" id = "view2" onClick = 'changeView("view2")'><img class = "sideviewImages" src = "../../Images/LexmarkW850View2.jpg"></button>
+                 <!--button no 3-->
+
+                <button class = "viewButton" id = "view3" onClick = 'changeView("view3")'><img class = "sideviewImages" src = "../../Images/LexmarkW850View3.jpg"></button>
+            </div>
+            <!--product image display area-->
+
+            <div id="product-image">
+                <img class = "viewImages" src="../../Images/LexmarkW850View1.jpg" alt="Lexmark W850 printer">
+            </div>
+            <!--product decription section-->
+
+            <div class="product-details">
+                <h2>Lexmark W850 &REG; </h2><br>
+                <p>Expect fast, robust and reliable printing from the Lexmark W850 Series.It is expeptionally unique black and white peinter which is integrated with  the highest technology and features built-in duplex printing to reduce paper consumption.</p><br>
+                <!--Product price details-->
+
+                <h2 style="color: rgba(183, 34, 81, 0.907);">Price:$921</h2>
+                <h3> <strike style="color: brown; display: block; margin-bottom: 40px;">Price:$970</strike></h3>
+                <button class = "buyNow" onclick="buyMessage('Lexmark W850')">Buy Now</button>
+            </div>
+
+            <table class="features">
+                <!--Caption for feature table which align centre-->
+
+                <caption style="margin-bottom: 16px;"><h3>Features</h3></caption>
+                <!--Row containing feature details-->
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                            Monochrome leaser
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                Duplex(2-sided)Printing: Includes Duplex Unit
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                            Recomended Monthly Page Volume: 15000-59000 pages
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                            Comes with an 802.1*X network security and includes a four-line display 
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!--Specification tables-->
+
+            <table class="specifications">
+                <caption style="margin-bottom: 16px;"><h3>Specifications</h3></caption>
+                <tr>
+                    <td>Number of Nozzles</td>
+                    <td>180 per color</td>
+                </tr>
+
+                <tr>
+                    <td>Power Consumption(Approx.) </td>
+                    <td>140W Operating, 60W Standby, 65 sleep</td>
+                </tr>
+                <tr>
+                    <td>Printing Speed </td>
+                    <td> A4 30pages per min, A3 15pages per min</td>
+                </tr>
+                <tr>
+                    <td>Maximum resolution   </td>
+                    <td>1200*1200 dpi</td>
+                </tr>
+                <tr>
+                    <td>Shipping Weight(IB) </td>
+                    <td>168IB</td>
+                </tr>
+
+            </table>
+
+        </div>
+        <!--Footer section-->
+
+        <footer class = "footer">
+            <meta name = "description" content = "footer section">
+            <meta name = "author" content = "Aayush Karki">
+            <meta name = "keywords" content = "FOOTER, HTML, CSS">
+            <figure style = "display: flex;">
+                <img src = "../../Images/logoWhite.png" style = "width: 70px; height: 50px;">
+                <p style = "font-size: 10px; margin: 30px;">Buy the best quality printers at affordable price.</p>
+            </figure>
+            <div style = "display: flex; margin-bottom: 40px;">
+                <div class = "linkbar">
+                    <span class = "footerLinkContainer"><a class = "footerLink" href = "../../homepage.html#arrivalSection">What's New</a></span>
+                    <span class = "footerLinkContainer"><a class = "footerLink" href = "../buyPage.html">Buy Printers</a></span>
+                    <span class = "footerLinkContainer"><a class = "footerLink" href = "../blogPage.html">Blog</a></span>
+                </div>
+                <div class = "linkbar" style = "margin-right: 130px;">
+                    <span class = "footerLinkContainer"><a class = "footerLink" href = "../researchPage.html">Research</a></span>
+                    <span class = "footerLinkContainer"><a class = "footerLink" href = "../aboutUs.html#teamDescription">Portfolios</a></span>
+                    <span class = "footerLinkContainer"><a class = "footerLink" href = "../aboutUs.html#formSection">Feedback Form</a></span>
+                </div>
+                <div class = "newsLetter" style = "margin-right: 200px;">
+                    <h4>Subscribe to our newsletter!</h4><br>
+                    <p style = "font-size: 14px;">Enter your email to stay updated about us and our latest available products!</p><br>
+                    <form name = "subscribeForm" onsubmit="displaypopup(event)">
+                        <input name = "email" id = "newsLetterInput" type = "email">
+                        <button id = "newsLetterSubmit" type = "submit">Subscribe</button>
+                    </form>
+                </div>
+                <div class = "footerSocials">
+                    <h2 style = "margin-bottom: 25px; color: white;">Follow Us:</h2>
+                    <a onclick='socialPopUp("facebook")'><img class = "footerSocialLogo" src = "../../Images/facebookLogo.png"></a>
+                    <a onclick='socialPopUp("instagram")'><img class = "footerSocialLogo" src = "../../Images/instagramLogo.png"></a>
+                    <a onclick='socialPopUp("linkedIn")'><img class = "footerSocialLogo" src = "../../Images/linkedinLogo.png"></a>
+                    <a onclick='socialPopUp("youtube")'><img class = "footerSocialLogo" src = "../../Images/youtubeLogo.png"></a>
+                    <a onclick='socialPopUp("twitter")'><img class = "footerSocialLogo" src = "../../Images/xLogo.png"></a>
+                </div>
+            </div>
+            <hr style = "width: 70%; margin: auto; margin-bottom: 18px;">
+            <p style = "text-align: center; font-size: 12px;"> &copy; 2023 PSA, All rights reserved.</p>
+        </footer>
+        <!--Script for the change view image and buy button-->
+
+        <script type = "text/javascript">
+            function buyMessage(printerName){
+                alert("Thank you for buying " + printerName);
+            }
+            var productImage = document.getElementById("product-image");
+            var buttons = [ "view1", "view2","view3"];
+            var imageTags = [
+                            '<img class = "viewImages" src="../../Images/LexmarkW850View1.jpg">',
+                            '<img class = "viewImages" src="../../Images/LexmarkW850View2.jpg">',
+                            '<img class = "viewImages" src="../../Images/LexmarkW850View3.jpg">'
+                            ]
+            function changeView(button){
+                for(let i = 0; i < 3; i++){
+                    if(button == buttons[i]){
+                        document.getElementById(buttons[i]).style.border = "4px solid gray";
+                        productImage.innerHTML = imageTags[i];
+                    } else {
+                        document.getElementById(buttons[i]).style.border = "none";
+                    }
+                }
+            }
+        </script>
+        <!--External javaScript for footer-->
+        
+        <script type = "text/javascript" src = "../../JS/footer.js"></script>
+    </body>
+</html>
