@@ -1,0 +1,145 @@
+*{ /* this selector refers to all the components in the html */
+    box-sizing: border-box; /* this style makes the content stay within its designated width and height while padding is used */
+    z-index: 0; /* so that every element starts from the same z-coordinate */
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0;
+}
+
+
+body{
+    padding-top: 45px;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(23, 23, 23, 0.95);
+    width: 100%;
+    height: 45px;
+    z-index: 1; /*to make the header display above everything if the items overlap */
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+nav{
+    margin: auto;
+    height: 100%;
+    width: 600px;    
+}
+
+.link-table{
+    width: 100%;
+    height: 100%;
+}
+
+.link-container{
+    font-weight: normal;
+    text-align: center;
+    height: 100%;
+    color: white;
+}
+
+
+.nav-link{
+    padding-top : 13px;
+    height: 100%;
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    font-family: 'arial', Times, serif;
+    font-size: 13px;
+    display: block;
+}
+
+.nav-link:hover{
+    opacity: 1;
+}
+
+#logo{
+    width: 10%;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+#homeLink{
+    width: 12%;
+}
+#blogLink{
+    width: 16%;
+}
+#buyLink{
+    width: 22%;
+}
+#researchLink{
+    width: 20%;
+}
+#aboutUsLink{
+    width: 20%;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: black;
+    padding: 25px 50px;
+    color: white;
+}
+
+.footerLinkContainer{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.footerLink:link{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.footerLink:visited{
+    color: rgb(174, 167, 167);
+}
+
+.footerLink:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.linkbar{
+    margin-right: 50px;
+    width: 150px;
+    padding-left: 5px;
+}
+
+.footerSocialLogo{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+#newsLetterSubmit{
+    border: 1px solid white; 
+    background-color: black; 
+    color: white;
+    height: 30px;
+}
+
+#newsLetterSubmit:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+#newsLetterInput{
+    border: 1px solid white; 
+    background-color: black; 
+    color: white; 
+    height: 30px;
+    width: 200px;
+}
+
+.footerSocials a:hover{
+    cursor: pointer;
+}
